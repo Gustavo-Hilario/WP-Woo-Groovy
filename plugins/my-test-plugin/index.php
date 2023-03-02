@@ -18,7 +18,7 @@ function wpb_follow_us($content)
       // Message you want to display after the post
       // Add URLs to your own Twitter and Facebook profiles
 
-      $content .= '<p class="follow-us">If you liked this article, then please follow us on <a href="http://twitter.com/wpbeginner" title="WPBeginner on Twitter" target="_blank" rel="nofollow">Twitter</a> and <a href="https://www.facebook.com/wpbeginner" title="WPBeginner on Facebook" target="_blank" rel="nofollow">Facebook</a>.</p>';
+      $content .= '<p class="follow-us">If you liked this article, then please follow us on <a href="http://gustavohilario.com/" title="Gustavo on Twitter" target="_blank" rel="nofollow">Twitter</a> and <a href="http://gustavohilario.com/" title="Gustavo on Facebook" target="_blank" rel="nofollow">Facebook</a>.</p>';
    }
    // Return the content
    return $content;
