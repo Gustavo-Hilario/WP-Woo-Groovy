@@ -9,11 +9,11 @@
  * Author URI: http://gustavohilario.com/
  **/
 
- function disable_wpcomtoolbar ( $modules ) {
-   if ( isset( $modules['masterbar'] ) ) {
-   unset( $modules['masterbar'] );
+function disable_wpcomtoolbar($modules)
+{
+   if (isset($modules['masterbar'])) {
+      unset($modules['masterbar']);
    }
    return $modules;
-   }
-   add_filter( 'jetpack_get_available_modules', 'disable_wpcomtoolbar' );
-    
+}
+add_filter('jetpack_get_available_modules', 'disable_wpcomtoolbar');
