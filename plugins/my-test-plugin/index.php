@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name: My Test Plugin - Gustavo
- * Plugin URI: https://woo.groovytestsite.blog/
- * Description: Test.
+ * Plugin URI: http://gustavohilario.com/
+ * Description: Test plugin create to test the new GitHub integration on Atomic Sites.
  * Version: 0.1
  * Author: Gustavo-Hilario
- * Author URI: https://woo.groovytestsite.blog/
+ * Author URI: http://gustavohilario.com/
  **/
 
 function wpb_follow_us($content)
