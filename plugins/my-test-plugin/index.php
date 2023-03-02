@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: test-gustavo
+ * Plugin Name: My Test Plugin - Gustavo
  * Plugin URI: https://woo.groovytestsite.blog/
  * Description: Test.
  * Version: 0.1
