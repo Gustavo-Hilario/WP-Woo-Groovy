@@ -3,7 +3,7 @@
 /**
  * Plugin Name: My Test Plugin - Gustavo
  * Plugin URI: http://gustavohilario.com/
- * Description: Test plugin create to test the new GitHub integration on Atomic Sites. Add Twitter and Facebook links at the bottom of posts
+ * Description: Test plugin create to test the new GitHub integration on Atomic Sites. Add Twitter and Facebook links at the bottom of posts.
  * Version: 0.1
  * Author: Gustavo-Hilario
  * Author URI: http://gustavohilario.com/
