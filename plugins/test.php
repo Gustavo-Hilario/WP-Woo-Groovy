@@ -9,9 +9,11 @@
  * Author URI: https://woo.groovytestsite.blog/
  **/
 
-
-function modify_read_more_link()
-{
-    return '<a class="more-link" href="' . get_permalink() . '">Click to Read!</a>';
-}
-add_filter('the_content_more_link', 'modify_read_more_link');
+ function disable_wpcomtoolbar ( $modules ) {
+    if ( isset( $modules['masterbar'] ) ) {
+    unset( $modules['masterbar'] );
+    }
+    return $modules;
+    }
+    add_filter( 'jetpack_get_available_modules', 'disable_wpcomtoolbar' );
+     
