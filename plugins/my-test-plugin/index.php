@@ -12,7 +12,7 @@
 function wpb_follow_us($content)
 {
 
-   // Only do this when a single post is displayed :Test
+   // Only do this when a single post is displayed
    if (is_single()) {
 
       // Message you want to display after the post
